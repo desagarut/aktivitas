@@ -66,7 +66,7 @@ switch ($context) {
          <li class="nav-item <?= $context == 'kelas' ? 'active' : ''; ?>">
             <a class="nav-link" href="<?= base_url('admin/kelas'); ?>">
                <i class="material-icons">school</i>
-               <p>Data Wisuda & Prodi</p>
+               <p>Data Kegiatan & Bidang</p>
             </a>
          </li>
          <li class="nav-item <?= $context == 'qr' ? 'active' : ''; ?>">

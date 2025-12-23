@@ -2,3 +2,4 @@ vendor/myth/
 .env
 .htaccess
 writable/
+sample.env
