@@ -9,8 +9,8 @@
                   <div class="row justify-content-between">
                      <div class="col">
                         <div class="pt-3 pl-3">
-                           <h4><b>Daftar Peserta Wisuda</b></h4>
-                           <p>Silakan pilih Periode Wisuda</p>
+                           <h4><b>Daftar Peserta Kegiatan</b></h4>
+                           <p>Silakan pilih Periode </p>
                         </div>
                      </div>
                   </div>

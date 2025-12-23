@@ -31,7 +31,7 @@ class Scan extends BaseController
 
    public function index($t = 'Masuk')
    {
-      $data = ['waktu' => $t, 'title' => 'Absensi Peserta Wisuda dan Panitia Berbasis QR Code'];
+      $data = ['waktu' => $t, 'title' => 'Absensi Aktivitas STH Garut'];
       return view('scan/scan', $data);
    }
 
@@ -107,7 +107,7 @@ class Scan extends BaseController
             }
 
             $this->presensiGuruModel->absenMasuk($idGuru, $date, $time);
-            $messageString = $result['nama_guru'] . ' dengan NIP ' . $result['nuptk'] . $messageString;
+            $messageString = $result['nama_guru'] . ' dengan Nomor Pegawai ' . $result['nuptk'] . $messageString;
             $data['presensi'] = $this->presensiGuruModel->getPresensiByIdGuruTanggal($idGuru, $date);
 
             break;
@@ -125,7 +125,7 @@ class Scan extends BaseController
             }
 
             $this->presensiSiswaModel->absenMasuk($idSiswa, $date, $time, $idKelas);
-            $messageString = 'Siswa ' . $result['nama_siswa'] . ' dengan NIS ' . $result['nis'] . $messageString;
+            $messageString = 'Siswa ' . $result['nama_siswa'] . ' dengan Nomor Peserta ' . $result['nis'] . $messageString;
             $data['presensi'] = $this->presensiSiswaModel->getPresensiByIdSiswaTanggal($idSiswa, $date);
 
             break;

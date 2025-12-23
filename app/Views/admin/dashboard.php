@@ -50,7 +50,7 @@
                                 <i class="material-icons">grade</i>
                             </a>
                         </div>
-                        <p class="card-category">Jumlah Wisuda</p>
+                        <p class="card-category">Jumlah Kegiatan</p>
                         <h3 class="card-title"><?= count($kelas); ?></h3>
                     </div>
                     <div class="card-footer">
@@ -85,7 +85,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header card-header-primary">
-                        <h4 class="card-title"><b>Absensi Peserta Wisuda</b></h4>
+                        <h4 class="card-title"><b>Absensi Peserta</b></h4>
                         <p class="card-category"><?= $dateNow; ?></p>
                     </div>
                     <div class="card-body">
@@ -113,7 +113,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header card-header-success">
-                        <h4 class="card-title"><b>Absensi Panitia Wisuda</b></h4>
+                        <h4 class="card-title"><b>Absensi Panitia</b></h4>
                         <p class="card-category"><?= $dateNow; ?></p>
                     </div>
                     <div class="card-body">

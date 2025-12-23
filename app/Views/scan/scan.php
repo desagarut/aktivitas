@@ -17,21 +17,14 @@
     <div class="content">
        <div class="container-fluid">
           <div class="row mx-auto">
-             <div class="col-lg-3 col-xl-4">
+             <div class="col-md-2">
                 <div class="card">
                    <div class="card-body">
                       <h3 class="mt-2"><b>Tips</b></h3>
                       <ul class="pl-3">
                          <li>Tunjukkan qr code sampai terlihat jelas di kamera</li>
                          <li>Posisikan qr code tidak terlalu jauh maupun terlalu dekat</li>
-                      </ul>
-                   </div>
-                </div>
-                <div class="card">
-                   <div class="card-body">
-                      <h3 class="mt-2"><b>Penggunaan</b></h3>
-                      <ul class="pl-3">
-                         <li>Jika berhasil scan maka akan muncul data siswa/guru dibawah preview kamera</li>
+                         <li>Jika berhasil scan maka akan muncul data peserta dibawah preview kamera</li>
                          <li>Klik tombol <b><span class="text-success">Absen masuk</span> / <span class="text-warning">Absen pulang</span></b> untuk mengubah waktu absensi</li>
                          <li>Untuk melihat data absensi, klik tombol <span class="text-primary"><i class="material-icons" style="font-size: 16px;">dashboard</i> Dashboard Petugas</span></li>
                          <li>Untuk mengakses halaman petugas anda harus login terlebih dahulu</li>
@@ -39,7 +32,7 @@
                    </div>
                 </div>
              </div>
-             <div class="col-lg-9 col-xl-8">
+             <div class="col-md-10">
                 <div class="card">
                    <div class="col-10 mx-auto card-header card-header-primary">
                       <div class="row">
@@ -54,20 +47,17 @@
                          </div>
                       </div>
                    </div>
-                   <div class="card-body my-auto px-5">
+                   <div class="card-body my-auto px-2">
                       <h4 class="d-inline">Pilih kamera</h4>
-
                       <select id="pilihKamera" class="custom-select w-50 ml-2" aria-label="Default select example" style="height: 35px;">
-                         <option selected>Select camera devices</option>
+                         <option selected>Pilih Kamera</option>
                       </select>
-
                       <br>
-
                       <div class="row">
-                         <div class="col-sm-12 mx-auto">
+                         <div class="col-sm-12">
                             <div class="previewParent">
                                <div class="text-center">
-                                  <h4 class="d-none w-100" id="searching"><b>Mencari...</b></h4>
+                                  <h4 class="d-none h-70" id="searching"><b>Mencari...</b></h4>
                                </div>
                                <video id="previewKamera"></video>
                             </div>
